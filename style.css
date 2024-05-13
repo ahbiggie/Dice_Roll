@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poetsen+One&display=swap');
+
+:root{
+    background-color: #393E46;
+    color:#f0f8ff;
+}
+ h1{
+  font-family: "Poetsen One", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 5px 0 #232931;
+    color: #31eb31;
+ }
+
+ .container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+.dice{
+    text-align: center;
+    display: inline-block;
+}
+p {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: "Aclonica", sans-serif;
+  }
+
+  footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* Media query for screens up to 400px */
+@media only screen and (max-width: 400px) {
+ body{
+  height: 100vh;
+ }
+  h1 {
+font-size: 3rem;
+  }
+  .dice img {
+    width: 100px; 
+    height: auto; 
+  }
+    
+  p {
+font-size: 1.5rem;
+  }
+}
+
+/* Media query for screens up to 800px */
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+  .container {
+  width: 80%;
+  }
+
+  h1 {
+ font-size: 3.5rem;
+  }
+
+  p {
+ font-size: 1.8rem;
+  }
+}
